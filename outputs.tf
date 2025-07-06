@@ -1,1239 +1,1129 @@
-
-output "unique-seed" {
-  value = coalesce(var.unique-seed, local.random_safe_generation)
+output "alexa_for_business" {
+  value       = local.alexa_for_business
+  description = "Alexa for Business"
 }
 
-output "validation" {
-  value = local.validation
-}
-output "analysis_services_server" {
-  value       = local.az.analysis_services_server
-  description = "Analysis Services Server"
+output "amazon_linux_2023" {
+  value       = local.amazon_linux_2023
+  description = "Amazon Linux 2023"
 }
 
-output "api_management" {
-  value       = local.az.api_management
-  description = "Api Management"
+output "amplify" {
+  value       = local.amplify
+  description = "Amplify"
 }
 
-output "app_configuration" {
-  value       = local.az.app_configuration
-  description = "App Configuration"
+output "api_gateway" {
+  value       = local.api_gateway
+  description = "API Gateway"
 }
 
-output "app_service" {
-  value       = local.az.app_service
-  description = "App Service"
+output "app_mesh" {
+  value       = local.app_mesh
+  description = "App Mesh"
 }
 
-output "app_service_environment" {
-  value       = local.az.app_service_environment
-  description = "App Service Environment"
+output "app_runner" {
+  value       = local.app_runner
+  description = "App Runner"
 }
 
-output "app_service_plan" {
-  value       = local.az.app_service_plan
-  description = "App Service Plan"
+output "app2container" {
+  value       = local.app2container
+  description = "App2Container"
 }
 
-output "application_gateway" {
-  value       = local.az.application_gateway
-  description = "Application Gateway"
+output "appfabric" {
+  value       = local.appfabric
+  description = "AppFabric"
 }
 
-output "application_insights" {
-  value       = local.az.application_insights
-  description = "Application Insights"
+output "appflow" {
+  value       = local.appflow
+  description = "AppFlow"
 }
 
-output "application_security_group" {
-  value       = local.az.application_security_group
-  description = "Application Security Group"
+output "application_cost_profiler" {
+  value       = local.application_cost_profiler
+  description = "Application Cost Profiler"
 }
 
-output "automation_account" {
-  value       = local.az.automation_account
-  description = "Automation Account"
+output "application_discovery_service" {
+  value       = local.application_discovery_service
+  description = "Application Discovery Service"
 }
 
-output "automation_certificate" {
-  value       = local.az.automation_certificate
-  description = "Automation Certificate"
+output "application_migration_service" {
+  value       = local.application_migration_service
+  description = "Application Migration Service"
 }
 
-output "automation_credential" {
-  value       = local.az.automation_credential
-  description = "Automation Credential"
+output "appstream_2" {
+  value       = local.appstream_2
+  description = "AppStream 2.0"
 }
 
-output "automation_runbook" {
-  value       = local.az.automation_runbook
-  description = "Automation Runbook"
+output "appsync" {
+  value       = local.appsync
+  description = "AppSync"
 }
 
-output "automation_schedule" {
-  value       = local.az.automation_schedule
-  description = "Automation Schedule"
+output "artifact" {
+  value       = local.artifact
+  description = "Artifact"
 }
 
-output "automation_variable" {
-  value       = local.az.automation_variable
-  description = "Automation Variable"
+output "athena" {
+  value       = local.athena
+  description = "Athena"
 }
 
-output "availability_set" {
-  value       = local.az.availability_set
-  description = "Availability Set"
+output "audit_manager" {
+  value       = local.audit_manager
+  description = "Audit Manager"
 }
 
-output "bastion_host" {
-  value       = local.az.bastion_host
-  description = "Bastion Host"
+output "augmented_ai" {
+  value       = local.augmented_ai
+  description = "Augmented AI"
 }
 
-output "batch_account" {
-  value       = local.az.batch_account
-  description = "Batch Account"
+output "aurora" {
+  value       = local.aurora
+  description = "Aurora"
 }
 
-output "batch_application" {
-  value       = local.az.batch_application
-  description = "Batch Application"
+output "auto_scaling" {
+  value       = local.auto_scaling
+  description = "Auto Scaling"
 }
 
-output "batch_certificate" {
-  value       = local.az.batch_certificate
-  description = "Batch Certificate"
+output "b2b_data_interchange" {
+  value       = local.b2b_data_interchange
+  description = "B2B Data Interchange"
 }
 
-output "batch_pool" {
-  value       = local.az.batch_pool
-  description = "Batch Pool"
+output "backup" {
+  value       = local.backup
+  description = "Backup"
 }
 
-output "bot_channel_directline" {
-  value       = local.az.bot_channel_directline
-  description = "Bot Channel Directline"
+output "batch" {
+  value       = local.batch
+  description = "Batch"
 }
 
-output "bot_channel_email" {
-  value       = local.az.bot_channel_email
-  description = "Bot Channel Email"
+output "bedrock" {
+  value       = local.bedrock
+  description = "Bedrock"
 }
 
-output "bot_channel_ms_teams" {
-  value       = local.az.bot_channel_ms_teams
-  description = "Bot Channel Ms Teams"
+output "billing_conductor" {
+  value       = local.billing_conductor
+  description = "Billing Conductor"
 }
 
-output "bot_channel_slack" {
-  value       = local.az.bot_channel_slack
-  description = "Bot Channel Slack"
+output "budgets" {
+  value       = local.budgets
+  description = "Budgets"
 }
 
-output "bot_channels_registration" {
-  value       = local.az.bot_channels_registration
-  description = "Bot Channels Registration"
+output "certificate_manager" {
+  value       = local.certificate_manager
+  description = "Certificate Manager"
 }
 
-output "bot_connection" {
-  value       = local.az.bot_connection
-  description = "Bot Connection"
+output "chime" {
+  value       = local.chime
+  description = "Chime"
 }
 
-output "bot_web_app" {
-  value       = local.az.bot_web_app
-  description = "Bot Web App"
+output "chime_sdk" {
+  value       = local.chime_sdk
+  description = "Chime SDK"
 }
 
-output "cdn_endpoint" {
-  value       = local.az.cdn_endpoint
-  description = "Cdn Endpoint"
+output "clean_rooms" {
+  value       = local.clean_rooms
+  description = "Clean Rooms"
 }
 
-output "cdn_profile" {
-  value       = local.az.cdn_profile
-  description = "Cdn Profile"
+output "cloud_map" {
+  value       = local.cloud_map
+  description = "Cloud Map"
 }
 
-output "cognitive_account" {
-  value       = local.az.cognitive_account
-  description = "Cognitive Account"
+output "cloud9" {
+  value       = local.cloud9
+  description = "Cloud9"
 }
 
-output "container_app" {
-  value       = local.az.container_app
-  description = "Container App"
+output "cloudformation" {
+  value       = local.cloudformation
+  description = "CloudFormation"
 }
 
-output "container_app_environment" {
-  value       = local.az.container_app_environment
-  description = "Container App Environment"
+output "cloudfront" {
+  value       = local.cloudfront
+  description = "CloudFront"
 }
 
-output "container_group" {
-  value       = local.az.container_group
-  description = "Container Group"
+output "cloudhsm" {
+  value       = local.cloudhsm
+  description = "CloudHSM"
 }
 
-output "container_registry" {
-  value       = local.az.container_registry
-  description = "Container Registry"
+output "cloudsearch" {
+  value       = local.cloudsearch
+  description = "CloudSearch"
 }
 
-output "container_registry_webhook" {
-  value       = local.az.container_registry_webhook
-  description = "Container Registry Webhook"
+output "cloudshell" {
+  value       = local.cloudshell
+  description = "CloudShell"
 }
 
-output "cosmosdb_account" {
-  value       = local.az.cosmosdb_account
-  description = "Cosmosdb Account"
+output "cloudtrail" {
+  value       = local.cloudtrail
+  description = "CloudTrail"
 }
 
-output "cosmosdb_cassandra_cluster" {
-  value       = local.az.cosmosdb_cassandra_cluster
-  description = "Cosmosdb Cassandra Cluster"
+output "cloudwatch" {
+  value       = local.cloudwatch
+  description = "CloudWatch"
 }
 
-output "cosmosdb_cassandra_datacenter" {
-  value       = local.az.cosmosdb_cassandra_datacenter
-  description = "Cosmosdb Cassandra Datacenter"
+output "codeartifact" {
+  value       = local.codeartifact
+  description = "CodeArtifact"
 }
 
-output "cosmosdb_postgres" {
-  value       = local.az.cosmosdb_postgres
-  description = "Cosmosdb Postgres"
+output "cognito" {
+  value       = local.cognito
+  description = "Cognito"
 }
 
-output "custom_provider" {
-  value       = local.az.custom_provider
-  description = "Custom Provider"
+output "comprehend" {
+  value       = local.comprehend
+  description = "Comprehend"
 }
 
-output "dashboard" {
-  value       = local.az.dashboard
-  description = "Dashboard"
+output "comprehend_medical" {
+  value       = local.comprehend_medical
+  description = "Comprehend Medical"
 }
 
-output "data_factory" {
-  value       = local.az.data_factory
-  description = "Data Factory"
+output "compute_optimizer" {
+  value       = local.compute_optimizer
+  description = "Compute Optimizer"
 }
 
-output "data_factory_dataset_mysql" {
-  value       = local.az.data_factory_dataset_mysql
-  description = "Data Factory Dataset Mysql"
+output "config" {
+  value       = local.config
+  description = "Config"
 }
 
-output "data_factory_dataset_postgresql" {
-  value       = local.az.data_factory_dataset_postgresql
-  description = "Data Factory Dataset Postgresql"
+output "connect" {
+  value       = local.connect
+  description = "Connect"
 }
 
-output "data_factory_dataset_sql_server_table" {
-  value       = local.az.data_factory_dataset_sql_server_table
-  description = "Data Factory Dataset Sql Server Table"
+output "console_mobile_application" {
+  value       = local.console_mobile_application
+  description = "Console Mobile Application"
 }
 
-output "data_factory_integration_runtime_managed" {
-  value       = local.az.data_factory_integration_runtime_managed
-  description = "Data Factory Integration Runtime Managed"
+output "control_tower" {
+  value       = local.control_tower
+  description = "Control Tower"
 }
 
-output "data_factory_linked_service_data_lake_storage_gen2" {
-  value       = local.az.data_factory_linked_service_data_lake_storage_gen2
-  description = "Data Factory Linked Service Data Lake Storage Gen2"
+output "corretto" {
+  value       = local.corretto
+  description = "Corretto"
 }
 
-output "data_factory_linked_service_key_vault" {
-  value       = local.az.data_factory_linked_service_key_vault
-  description = "Data Factory Linked Service Key Vault"
+output "cost_and_usage_report" {
+  value       = local.cost_and_usage_report
+  description = "Cost and Usage Report"
 }
 
-output "data_factory_linked_service_mysql" {
-  value       = local.az.data_factory_linked_service_mysql
-  description = "Data Factory Linked Service Mysql"
+output "cost_explorer" {
+  value       = local.cost_explorer
+  description = "Cost Explorer"
 }
 
-output "data_factory_linked_service_postgresql" {
-  value       = local.az.data_factory_linked_service_postgresql
-  description = "Data Factory Linked Service Postgresql"
+output "data_exchange" {
+  value       = local.data_exchange
+  description = "Data Exchange"
 }
 
-output "data_factory_linked_service_sql_server" {
-  value       = local.az.data_factory_linked_service_sql_server
-  description = "Data Factory Linked Service Sql Server"
+output "data_firehose" {
+  value       = local.data_firehose
+  description = "Data Firehose"
 }
 
-output "data_factory_pipeline" {
-  value       = local.az.data_factory_pipeline
-  description = "Data Factory Pipeline"
-}
-
-output "data_factory_trigger_schedule" {
-  value       = local.az.data_factory_trigger_schedule
-  description = "Data Factory Trigger Schedule"
-}
-
-output "data_lake_analytics_account" {
-  value       = local.az.data_lake_analytics_account
-  description = "Data Lake Analytics Account"
-}
-
-output "data_lake_analytics_firewall_rule" {
-  value       = local.az.data_lake_analytics_firewall_rule
-  description = "Data Lake Analytics Firewall Rule"
-}
-
-output "data_lake_store" {
-  value       = local.az.data_lake_store
-  description = "Data Lake Store"
-}
-
-output "data_lake_store_firewall_rule" {
-  value       = local.az.data_lake_store_firewall_rule
-  description = "Data Lake Store Firewall Rule"
-}
-
-output "database_migration_project" {
-  value       = local.az.database_migration_project
-  description = "Database Migration Project"
+output "data_pipeline" {
+  value       = local.data_pipeline
+  description = "Data Pipeline"
 }
 
 output "database_migration_service" {
-  value       = local.az.database_migration_service
+  value       = local.database_migration_service
   description = "Database Migration Service"
 }
 
-output "databricks_cluster" {
-  value       = local.az.databricks_cluster
-  description = "Databricks Cluster"
+output "datasync" {
+  value       = local.datasync
+  description = "DataSync"
 }
 
-output "databricks_high_concurrency_cluster" {
-  value       = local.az.databricks_high_concurrency_cluster
-  description = "Databricks High Concurrency Cluster"
+output "datazone" {
+  value       = local.datazone
+  description = "DataZone"
 }
 
-output "databricks_standard_cluster" {
-  value       = local.az.databricks_standard_cluster
-  description = "Databricks Standard Cluster"
+output "deepcomposer" {
+  value       = local.deepcomposer
+  description = "DeepComposer"
 }
 
-output "databricks_workspace" {
-  value       = local.az.databricks_workspace
-  description = "Databricks Workspace"
+output "deepracer" {
+  value       = local.deepracer
+  description = "DeepRacer"
 }
 
-output "dev_test_lab" {
-  value       = local.az.dev_test_lab
-  description = "Dev Test Lab"
+output "detective" {
+  value       = local.detective
+  description = "Detective"
 }
 
-output "dev_test_linux_virtual_machine" {
-  value       = local.az.dev_test_linux_virtual_machine
-  description = "Dev Test Linux Virtual Machine"
+output "device_farm" {
+  value       = local.device_farm
+  description = "Device Farm"
 }
 
-output "dev_test_windows_virtual_machine" {
-  value       = local.az.dev_test_windows_virtual_machine
-  description = "Dev Test Windows Virtual Machine"
+output "devops_guru" {
+  value       = local.devops_guru
+  description = "DevOps Guru"
 }
 
-output "disk_encryption_set" {
-  value       = local.az.disk_encryption_set
-  description = "Disk Encryption Set"
+output "direct_connect" {
+  value       = local.direct_connect
+  description = "Direct Connect"
 }
 
-output "dns_a_record" {
-  value       = local.az.dns_a_record
-  description = "Dns A Record"
+output "directory_service" {
+  value       = local.directory_service
+  description = "Directory Service"
 }
 
-output "dns_aaaa_record" {
-  value       = local.az.dns_aaaa_record
-  description = "Dns Aaaa Record"
+output "documentdb" {
+  value       = local.documentdb
+  description = "DocumentDB (with MongoDB compatibility)"
 }
 
-output "dns_caa_record" {
-  value       = local.az.dns_caa_record
-  description = "Dns Caa Record"
+output "dynamodb" {
+  value       = local.dynamodb
+  description = "DynamoDB"
 }
 
-output "dns_cname_record" {
-  value       = local.az.dns_cname_record
-  description = "Dns Cname Record"
+output "ec2" {
+  value       = local.ec2
+  description = "EC2"
 }
 
-output "dns_mx_record" {
-  value       = local.az.dns_mx_record
-  description = "Dns Mx Record"
+output "ec2_auto_scaling" {
+  value       = local.ec2_auto_scaling
+  description = "EC2 Auto Scaling"
 }
 
-output "dns_ns_record" {
-  value       = local.az.dns_ns_record
-  description = "Dns Ns Record"
+output "ec2_image_builder" {
+  value       = local.ec2_image_builder
+  description = "EC2 Image Builder"
 }
 
-output "dns_ptr_record" {
-  value       = local.az.dns_ptr_record
-  description = "Dns Ptr Record"
+output "elastic_beanstalk" {
+  value       = local.elastic_beanstalk
+  description = "Elastic Beanstalk"
 }
 
-output "dns_txt_record" {
-  value       = local.az.dns_txt_record
-  description = "Dns Txt Record"
+output "elastic_block_store" {
+  value       = local.elastic_block_store
+  description = "Elastic Block Store"
 }
 
-output "dns_zone" {
-  value       = local.az.dns_zone
-  description = "Dns Zone"
+output "elastic_container_registry" {
+  value       = local.elastic_container_registry
+  description = "Elastic Container Registry"
 }
 
-output "eventgrid_domain" {
-  value       = local.az.eventgrid_domain
-  description = "Eventgrid Domain"
+output "elastic_container_service" {
+  value       = local.elastic_container_service
+  description = "Elastic Container Service"
 }
 
-output "eventgrid_domain_topic" {
-  value       = local.az.eventgrid_domain_topic
-  description = "Eventgrid Domain Topic"
+output "elastic_disaster_recovery" {
+  value       = local.elastic_disaster_recovery
+  description = "Elastic Disaster Recovery"
 }
 
-output "eventgrid_event_subscription" {
-  value       = local.az.eventgrid_event_subscription
-  description = "Eventgrid Event Subscription"
+output "elastic_file_system" {
+  value       = local.elastic_file_system
+  description = "Elastic File System"
 }
 
-output "eventgrid_topic" {
-  value       = local.az.eventgrid_topic
-  description = "Eventgrid Topic"
+output "elastic_kubernetes_service" {
+  value       = local.elastic_kubernetes_service
+  description = "Elastic Kubernetes Service"
 }
 
-output "eventhub" {
-  value       = local.az.eventhub
-  description = "Eventhub"
+output "elastic_load_balancing" {
+  value       = local.elastic_load_balancing
+  description = "Elastic Load Balancing"
 }
 
-output "eventhub_authorization_rule" {
-  value       = local.az.eventhub_authorization_rule
-  description = "Eventhub Authorization Rule"
+output "elastic_transcoder" {
+  value       = local.elastic_transcoder
+  description = "Elastic Transcoder"
 }
 
-output "eventhub_consumer_group" {
-  value       = local.az.eventhub_consumer_group
-  description = "Eventhub Consumer Group"
+output "elasticache" {
+  value       = local.elasticache
+  description = "ElastiCache"
 }
 
-output "eventhub_namespace" {
-  value       = local.az.eventhub_namespace
-  description = "Eventhub Namespace"
+output "elemental_appliances_and_software" {
+  value       = local.elemental_appliances_and_software
+  description = "Elemental Appliances and Software"
 }
 
-output "eventhub_namespace_authorization_rule" {
-  value       = local.az.eventhub_namespace_authorization_rule
-  description = "Eventhub Namespace Authorization Rule"
+output "elemental_mediaconnect" {
+  value       = local.elemental_mediaconnect
+  description = "Elemental MediaConnect"
 }
 
-output "eventhub_namespace_disaster_recovery_config" {
-  value       = local.az.eventhub_namespace_disaster_recovery_config
-  description = "Eventhub Namespace Disaster Recovery Config"
+output "elemental_mediaconvert" {
+  value       = local.elemental_mediaconvert
+  description = "Elemental MediaConvert"
 }
 
-output "express_route_circuit" {
-  value       = local.az.express_route_circuit
-  description = "Express Route Circuit"
+output "elemental_medialive" {
+  value       = local.elemental_medialive
+  description = "Elemental MediaLive"
 }
 
-output "express_route_gateway" {
-  value       = local.az.express_route_gateway
-  description = "Express Route Gateway"
+output "elemental_mediapackage" {
+  value       = local.elemental_mediapackage
+  description = "Elemental MediaPackage"
 }
 
-output "firewall" {
-  value       = local.az.firewall
-  description = "Firewall"
+output "elemental_mediastore" {
+  value       = local.elemental_mediastore
+  description = "Elemental MediaStore"
 }
 
-output "firewall_application_rule_collection" {
-  value       = local.az.firewall_application_rule_collection
-  description = "Firewall Application Rule Collection"
+output "elemental_mediatailor" {
+  value       = local.elemental_mediatailor
+  description = "Elemental MediaTailor"
 }
 
-output "firewall_ip_configuration" {
-  value       = local.az.firewall_ip_configuration
-  description = "Firewall Ip Configuration"
+output "emr" {
+  value       = local.emr
+  description = "EMR"
 }
 
-output "firewall_nat_rule_collection" {
-  value       = local.az.firewall_nat_rule_collection
-  description = "Firewall Nat Rule Collection"
+output "entity_resolution" {
+  value       = local.entity_resolution
+  description = "Entity Resolution"
 }
 
-output "firewall_network_rule_collection" {
-  value       = local.az.firewall_network_rule_collection
-  description = "Firewall Network Rule Collection"
+output "eventbridge" {
+  value       = local.eventbridge
+  description = "EventBridge"
 }
 
-output "firewall_policy" {
-  value       = local.az.firewall_policy
-  description = "Firewall Policy"
+output "fargate" {
+  value       = local.fargate
+  description = "Fargate"
 }
 
-output "firewall_policy_rule_collection_group" {
-  value       = local.az.firewall_policy_rule_collection_group
-  description = "Firewall Policy Rule Collection Group"
+output "fault_injection_service" {
+  value       = local.fault_injection_service
+  description = "Fault Injection Service"
 }
 
-output "frontdoor" {
-  value       = local.az.frontdoor
-  description = "Frontdoor"
+output "file_cache" {
+  value       = local.file_cache
+  description = "File Cache"
 }
 
-output "frontdoor_firewall_policy" {
-  value       = local.az.frontdoor_firewall_policy
-  description = "Frontdoor Firewall Policy"
+output "finspace" {
+  value       = local.finspace
+  description = "FinSpace"
 }
 
-output "function_app" {
-  value       = local.az.function_app
-  description = "Function App"
+output "firewall_manager" {
+  value       = local.firewall_manager
+  description = "Firewall Manager"
 }
 
-output "hdinsight_hadoop_cluster" {
-  value       = local.az.hdinsight_hadoop_cluster
-  description = "Hdinsight Hadoop Cluster"
+output "forecast" {
+  value       = local.forecast
+  description = "Forecast"
 }
 
-output "hdinsight_hbase_cluster" {
-  value       = local.az.hdinsight_hbase_cluster
-  description = "Hdinsight Hbase Cluster"
+output "fraud_detector" {
+  value       = local.fraud_detector
+  description = "Fraud Detector"
 }
 
-output "hdinsight_interactive_query_cluster" {
-  value       = local.az.hdinsight_interactive_query_cluster
-  description = "Hdinsight Interactive Query Cluster"
+output "fsx_for_lustre" {
+  value       = local.fsx_for_lustre
+  description = "FSx for Lustre"
 }
 
-output "hdinsight_kafka_cluster" {
-  value       = local.az.hdinsight_kafka_cluster
-  description = "Hdinsight Kafka Cluster"
+output "fsx_for_netapp_ontap" {
+  value       = local.fsx_for_netapp_ontap
+  description = "FSx for NetApp ONTAP"
 }
 
-output "hdinsight_ml_services_cluster" {
-  value       = local.az.hdinsight_ml_services_cluster
-  description = "Hdinsight Ml Services Cluster"
+output "fsx_for_openzfs" {
+  value       = local.fsx_for_openzfs
+  description = "FSx for OpenZFS"
 }
 
-output "hdinsight_rserver_cluster" {
-  value       = local.az.hdinsight_rserver_cluster
-  description = "Hdinsight Rserver Cluster"
+output "fsx_for_windows_file_server" {
+  value       = local.fsx_for_windows_file_server
+  description = "FSx for Windows File Server"
 }
 
-output "hdinsight_spark_cluster" {
-  value       = local.az.hdinsight_spark_cluster
-  description = "Hdinsight Spark Cluster"
+output "global_accelerator" {
+  value       = local.global_accelerator
+  description = "Global Accelerator"
 }
 
-output "hdinsight_storm_cluster" {
-  value       = local.az.hdinsight_storm_cluster
-  description = "Hdinsight Storm Cluster"
+output "glue" {
+  value       = local.glue
+  description = "Glue"
 }
 
-output "image" {
-  value       = local.az.image
-  description = "Image"
+output "guardduty" {
+  value       = local.guardduty
+  description = "GuardDuty"
 }
 
-output "iotcentral_application" {
-  value       = local.az.iotcentral_application
-  description = "Iotcentral Application"
+output "health" {
+  value       = local.health
+  description = "Health"
 }
 
-output "iothub" {
-  value       = local.az.iothub
-  description = "Iothub"
+output "healthlake" {
+  value       = local.healthlake
+  description = "HealthLake"
 }
 
-output "iothub_consumer_group" {
-  value       = local.az.iothub_consumer_group
-  description = "Iothub Consumer Group"
+output "healthscribe" {
+  value       = local.healthscribe
+  description = "HealthScribe"
 }
 
-output "iothub_dps" {
-  value       = local.az.iothub_dps
-  description = "Iothub Dps"
+output "iam_identity_center" {
+  value       = local.iam_identity_center
+  description = "IAM Identity Center"
 }
 
-output "iothub_dps_certificate" {
-  value       = local.az.iothub_dps_certificate
-  description = "Iothub Dps Certificate"
+output "identity_and_access_management" {
+  value       = local.identity_and_access_management
+  description = "Identity and Access Management"
 }
 
-output "key_vault" {
-  value       = local.az.key_vault
-  description = "Key Vault"
+output "infrastructure_composer" {
+  value       = local.infrastructure_composer
+  description = "Infrastructure Composer"
 }
 
-output "key_vault_certificate" {
-  value       = local.az.key_vault_certificate
-  description = "Key Vault Certificate"
+output "inspector" {
+  value       = local.inspector
+  description = "Inspector"
 }
 
-output "key_vault_key" {
-  value       = local.az.key_vault_key
-  description = "Key Vault Key"
+output "integrated_private_wireless_on_aws" {
+  value       = local.integrated_private_wireless_on_aws
+  description = "Integrated Private Wireless on AWS"
 }
 
-output "key_vault_secret" {
-  value       = local.az.key_vault_secret
-  description = "Key Vault Secret"
+output "interactive_video_service" {
+  value       = local.interactive_video_service
+  description = "Interactive Video Service"
 }
 
-output "kubernetes_cluster" {
-  value       = local.az.kubernetes_cluster
-  description = "Kubernetes Cluster"
+output "iot_analytics" {
+  value       = local.iot_analytics
+  description = "IoT Analytics"
 }
 
-output "kusto_cluster" {
-  value       = local.az.kusto_cluster
-  description = "Kusto Cluster"
+output "iot_button" {
+  value       = local.iot_button
+  description = "IoT Button"
 }
 
-output "kusto_database" {
-  value       = local.az.kusto_database
-  description = "Kusto Database"
+output "iot_core" {
+  value       = local.iot_core
+  description = "IoT Core"
 }
 
-output "kusto_eventhub_data_connection" {
-  value       = local.az.kusto_eventhub_data_connection
-  description = "Kusto Eventhub Data Connection"
+output "iot_device_defender" {
+  value       = local.iot_device_defender
+  description = "IoT Device Defender"
 }
 
-output "lb" {
-  value       = local.az.lb
-  description = "Lb"
+output "iot_device_management" {
+  value       = local.iot_device_management
+  description = "IoT Device Management"
 }
 
-output "lb_nat_rule" {
-  value       = local.az.lb_nat_rule
-  description = "Lb Nat Rule"
+output "iot_events" {
+  value       = local.iot_events
+  description = "IoT Events"
 }
 
-output "linux_virtual_machine" {
-  value       = local.az.linux_virtual_machine
-  description = "Linux Virtual Machine"
+output "iot_expresslink" {
+  value       = local.iot_expresslink
+  description = "IoT ExpressLink"
 }
 
-output "linux_virtual_machine_scale_set" {
-  value       = local.az.linux_virtual_machine_scale_set
-  description = "Linux Virtual Machine Scale Set"
+output "iot_fleetwise" {
+  value       = local.iot_fleetwise
+  description = "IoT FleetWise"
 }
 
-output "load_test" {
-  value       = local.az.load_test
-  description = "Load Test"
+output "iot_greengrass" {
+  value       = local.iot_greengrass
+  description = "IoT Greengrass"
 }
 
-output "local_network_gateway" {
-  value       = local.az.local_network_gateway
-  description = "Local Network Gateway"
+output "iot_sitewise" {
+  value       = local.iot_sitewise
+  description = "IoT SiteWise"
 }
 
-output "log_analytics_workspace" {
-  value       = local.az.log_analytics_workspace
-  description = "Log Analytics Workspace"
+output "iot_twinmaker" {
+  value       = local.iot_twinmaker
+  description = "IoT TwinMaker"
 }
 
-output "logic_app_workflow" {
-  value       = local.az.logic_app_workflow
-  description = "Logic App Workflow"
+output "kendra" {
+  value       = local.kendra
+  description = "Kendra"
 }
 
-output "machine_learning_workspace" {
-  value       = local.az.machine_learning_workspace
-  description = "Machine Learning Workspace"
+output "key_management_service" {
+  value       = local.key_management_service
+  description = "Key Management Service"
 }
 
-output "managed_disk" {
-  value       = local.az.managed_disk
-  description = "Managed Disk"
+output "keyspaces" {
+  value       = local.keyspaces
+  description = "Keyspaces (for Apache Cassandra)"
 }
 
-output "maps_account" {
-  value       = local.az.maps_account
-  description = "Maps Account"
+output "kinesis" {
+  value       = local.kinesis
+  description = "Kinesis"
 }
 
-output "mariadb_database" {
-  value       = local.az.mariadb_database
-  description = "Mariadb Database"
+output "kinesis_data_streams" {
+  value       = local.kinesis_data_streams
+  description = "Kinesis Data Streams"
 }
 
-output "mariadb_firewall_rule" {
-  value       = local.az.mariadb_firewall_rule
-  description = "Mariadb Firewall Rule"
+output "kinesis_video_streams" {
+  value       = local.kinesis_video_streams
+  description = "Kinesis Video Streams"
 }
 
-output "mariadb_server" {
-  value       = local.az.mariadb_server
-  description = "Mariadb Server"
+output "lake_formation" {
+  value       = local.lake_formation
+  description = "Lake Formation"
 }
 
-output "mariadb_virtual_network_rule" {
-  value       = local.az.mariadb_virtual_network_rule
-  description = "Mariadb Virtual Network Rule"
+output "lambda" {
+  value       = local.lambda
+  description = "Lambda"
 }
 
-output "monitor_action_group" {
-  value       = local.az.monitor_action_group
-  description = "Monitor Action Group"
+output "launch_wizard" {
+  value       = local.launch_wizard
+  description = "Launch Wizard"
 }
 
-output "monitor_autoscale_setting" {
-  value       = local.az.monitor_autoscale_setting
-  description = "Monitor Autoscale Setting"
+output "lex" {
+  value       = local.lex
+  description = "Lex"
 }
 
-output "monitor_diagnostic_setting" {
-  value       = local.az.monitor_diagnostic_setting
-  description = "Monitor Diagnostic Setting"
+output "license_manager" {
+  value       = local.license_manager
+  description = "License Manager"
 }
 
-output "monitor_scheduled_query_rules_alert" {
-  value       = local.az.monitor_scheduled_query_rules_alert
-  description = "Monitor Scheduled Query Rules Alert"
+output "lightsail" {
+  value       = local.lightsail
+  description = "Lightsail"
 }
 
-output "mssql_database" {
-  value       = local.az.mssql_database
-  description = "Mssql Database"
+output "lightsail_managed_databases" {
+  value       = local.lightsail_managed_databases
+  description = "Lightsail managed databases"
 }
 
-output "mssql_elasticpool" {
-  value       = local.az.mssql_elasticpool
-  description = "Mssql Elasticpool"
+output "location_service" {
+  value       = local.location_service
+  description = "Location Service"
 }
 
-output "mssql_managed_instance" {
-  value       = local.az.mssql_managed_instance
-  description = "Mssql Managed Instance"
+output "lookout_for_equipment" {
+  value       = local.lookout_for_equipment
+  description = "Lookout for Equipment"
 }
 
-output "mssql_server" {
-  value       = local.az.mssql_server
-  description = "Mssql Server"
+output "lookout_for_metrics" {
+  value       = local.lookout_for_metrics
+  description = "Lookout for Metrics"
 }
 
-output "mysql_database" {
-  value       = local.az.mysql_database
-  description = "Mysql Database"
+output "lookout_for_vision" {
+  value       = local.lookout_for_vision
+  description = "Lookout for Vision"
 }
 
-output "mysql_firewall_rule" {
-  value       = local.az.mysql_firewall_rule
-  description = "Mysql Firewall Rule"
+output "macie" {
+  value       = local.macie
+  description = "Macie"
 }
 
-output "mysql_server" {
-  value       = local.az.mysql_server
-  description = "Mysql Server"
+output "mainframe_modernization_service" {
+  value       = local.mainframe_modernization_service
+  description = "Mainframe Modernization Service"
 }
 
-output "mysql_virtual_network_rule" {
-  value       = local.az.mysql_virtual_network_rule
-  description = "Mysql Virtual Network Rule"
+output "managed_blockchain" {
+  value       = local.managed_blockchain
+  description = "Managed Blockchain"
 }
 
-output "nat_gateway" {
-  value       = local.az.nat_gateway
-  description = "Nat Gateway"
+output "managed_grafana" {
+  value       = local.managed_grafana
+  description = "Managed Grafana"
 }
 
-output "network_ddos_protection_plan" {
-  value       = local.az.network_ddos_protection_plan
-  description = "Network Ddos Protection Plan"
+output "managed_service_for_apache_flink" {
+  value       = local.managed_service_for_apache_flink
+  description = "Managed Service for Apache Flink"
 }
 
-output "network_interface" {
-  value       = local.az.network_interface
-  description = "Network Interface"
+output "managed_service_for_prometheus" {
+  value       = local.managed_service_for_prometheus
+  description = "Managed Service for Prometheus"
 }
 
-output "network_security_group" {
-  value       = local.az.network_security_group
-  description = "Network Security Group"
+output "managed_streaming_for_apache_kafka" {
+  value       = local.managed_streaming_for_apache_kafka
+  description = "Managed Streaming for Apache Kafka (Amazon MSK)"
 }
 
-output "network_security_group_rule" {
-  value       = local.az.network_security_group_rule
-  description = "Network Security Group Rule"
+output "managed_workflows_for_apache_airflow" {
+  value       = local.managed_workflows_for_apache_airflow
+  description = "Managed Workflows for Apache Airflow (MWAA)"
 }
 
-output "network_security_rule" {
-  value       = local.az.network_security_rule
-  description = "Network Security Rule"
+output "memorydb" {
+  value       = local.memorydb
+  description = "MemoryDB"
 }
 
-output "network_watcher" {
-  value       = local.az.network_watcher
-  description = "Network Watcher"
+output "migration_hub" {
+  value       = local.migration_hub
+  description = "Migration Hub"
 }
 
-output "notification_hub" {
-  value       = local.az.notification_hub
-  description = "Notification Hub"
+output "monitron" {
+  value       = local.monitron
+  description = "Monitron"
 }
 
-output "notification_hub_authorization_rule" {
-  value       = local.az.notification_hub_authorization_rule
-  description = "Notification Hub Authorization Rule"
+output "mq" {
+  value       = local.mq
+  description = "MQ"
 }
 
-output "notification_hub_namespace" {
-  value       = local.az.notification_hub_namespace
-  description = "Notification Hub Namespace"
+output "neptune" {
+  value       = local.neptune
+  description = "Neptune"
 }
 
-output "point_to_site_vpn_gateway" {
-  value       = local.az.point_to_site_vpn_gateway
-  description = "Point To Site Vpn Gateway"
+output "network_firewall" {
+  value       = local.network_firewall
+  description = "Network Firewall"
 }
 
-output "postgresql_database" {
-  value       = local.az.postgresql_database
-  description = "Postgresql Database"
+output "nimble_studio" {
+  value       = local.nimble_studio
+  description = "Nimble Studio"
 }
 
-output "postgresql_firewall_rule" {
-  value       = local.az.postgresql_firewall_rule
-  description = "Postgresql Firewall Rule"
+output "opensearch_serverless" {
+  value       = local.opensearch_serverless
+  description = "OpenSearch Serverless"
 }
 
-output "postgresql_server" {
-  value       = local.az.postgresql_server
-  description = "Postgresql Server"
+output "opensearch_service" {
+  value       = local.opensearch_service
+  description = "OpenSearch Service"
 }
 
-output "postgresql_virtual_network_rule" {
-  value       = local.az.postgresql_virtual_network_rule
-  description = "Postgresql Virtual Network Rule"
+output "opsworks" {
+  value       = local.opsworks
+  description = "OpsWorks"
 }
 
-output "powerbi_embedded" {
-  value       = local.az.powerbi_embedded
-  description = "Powerbi Embedded"
+output "organizations" {
+  value       = local.organizations
+  description = "Organizations"
 }
 
-output "private_dns_a_record" {
-  value       = local.az.private_dns_a_record
-  description = "Private Dns A Record"
+output "outposts" {
+  value       = local.outposts
+  description = "Outposts"
 }
 
-output "private_dns_aaaa_record" {
-  value       = local.az.private_dns_aaaa_record
-  description = "Private Dns Aaaa Record"
+output "panorama" {
+  value       = local.panorama
+  description = "Panorama"
 }
 
-output "private_dns_cname_record" {
-  value       = local.az.private_dns_cname_record
-  description = "Private Dns Cname Record"
+output "partner_device_catalog" {
+  value       = local.partner_device_catalog
+  description = "Partner Device Catalog"
 }
 
-output "private_dns_mx_record" {
-  value       = local.az.private_dns_mx_record
-  description = "Private Dns Mx Record"
+output "partyrock" {
+  value       = local.partyrock
+  description = "PartyRock"
 }
 
-output "private_dns_ptr_record" {
-  value       = local.az.private_dns_ptr_record
-  description = "Private Dns Ptr Record"
+output "personalize" {
+  value       = local.personalize
+  description = "Personalize"
 }
 
-output "private_dns_srv_record" {
-  value       = local.az.private_dns_srv_record
-  description = "Private Dns Srv Record"
+output "pinpoint" {
+  value       = local.pinpoint
+  description = "Pinpoint"
 }
 
-output "private_dns_txt_record" {
-  value       = local.az.private_dns_txt_record
-  description = "Private Dns Txt Record"
+output "polly" {
+  value       = local.polly
+  description = "Polly"
 }
 
-output "private_dns_zone" {
-  value       = local.az.private_dns_zone
-  description = "Private Dns Zone"
+output "private_5g" {
+  value       = local.private_5g
+  description = "Private 5G"
 }
 
-output "private_dns_zone_group" {
-  value       = local.az.private_dns_zone_group
-  description = "Private Dns Zone Group"
+output "privatelink" {
+  value       = local.privatelink
+  description = "PrivateLink"
 }
 
-output "private_endpoint" {
-  value       = local.az.private_endpoint
-  description = "Private Endpoint"
+output "proton" {
+  value       = local.proton
+  description = "Proton"
 }
 
-output "private_link_service" {
-  value       = local.az.private_link_service
-  description = "Private Link Service"
+output "q" {
+  value       = local.q
+  description = "Q"
 }
 
-output "private_service_connection" {
-  value       = local.az.private_service_connection
-  description = "Private Service Connection"
+output "q_developer" {
+  value       = local.q_developer
+  description = "Q Developer"
 }
 
-output "proximity_placement_group" {
-  value       = local.az.proximity_placement_group
-  description = "Proximity Placement Group"
+output "q_developer_in_chat_applications" {
+  value       = local.q_developer_in_chat_applications
+  description = "Q Developer in chat applications (formerly AWS Chatbot)"
 }
 
-output "public_ip" {
-  value       = local.az.public_ip
-  description = "Public Ip"
+output "quantum_ledger_database" {
+  value       = local.quantum_ledger_database
+  description = "Quantum Ledger Database (Amazon QLDB)"
 }
 
-output "public_ip_prefix" {
-  value       = local.az.public_ip_prefix
-  description = "Public Ip Prefix"
+output "quicksight" {
+  value       = local.quicksight
+  description = "QuickSight"
 }
 
-output "recovery_services_vault" {
-  value       = local.az.recovery_services_vault
-  description = "Recovery Services Vault"
+output "rds_for_db2" {
+  value       = local.rds_for_db2
+  description = "RDS for Db2"
 }
 
-output "redis_cache" {
-  value       = local.az.redis_cache
-  description = "Redis Cache"
+output "rds_on_vmware" {
+  value       = local.rds_on_vmware
+  description = "RDS on VMware"
 }
 
-output "redis_firewall_rule" {
-  value       = local.az.redis_firewall_rule
-  description = "Redis Firewall Rule"
+output "red_hat_openshift_service_on_aws" {
+  value       = local.red_hat_openshift_service_on_aws
+  description = "Red Hat OpenShift Service on AWS"
 }
 
-output "relay_hybrid_connection" {
-  value       = local.az.relay_hybrid_connection
-  description = "Relay Hybrid Connection"
+output "redshift" {
+  value       = local.redshift
+  description = "Redshift"
 }
 
-output "relay_namespace" {
-  value       = local.az.relay_namespace
-  description = "Relay Namespace"
+output "redshift_serverless" {
+  value       = local.redshift_serverless
+  description = "Redshift Serverless"
 }
 
-output "resource_group" {
-  value       = local.az.resource_group
-  description = "Resource Group"
+output "rekognition" {
+  value       = local.rekognition
+  description = "Rekognition"
 }
 
-output "role_assignment" {
-  value       = local.az.role_assignment
-  description = "Role Assignment"
+output "relational_database_service" {
+  value       = local.relational_database_service
+  description = "Relational Database Service"
 }
 
-output "role_definition" {
-  value       = local.az.role_definition
-  description = "Role Definition"
+output "reserved_instance_reporting" {
+  value       = local.reserved_instance_reporting
+  description = "Reserved Instance (RI) reporting"
 }
 
-output "route" {
-  value       = local.az.route
-  description = "Route"
+output "resource_access_manager" {
+  value       = local.resource_access_manager
+  description = "Resource Access Manager"
 }
 
-output "route_table" {
-  value       = local.az.route_table
-  description = "Route Table"
+output "route_53" {
+  value       = local.route_53
+  description = "Route 53"
 }
 
-output "search_service" {
-  value       = local.az.search_service
-  description = "Search Service"
+output "sagemaker_ai" {
+  value       = local.sagemaker_ai
+  description = "SageMaker AI"
 }
 
-output "service_fabric_cluster" {
-  value       = local.az.service_fabric_cluster
-  description = "Service Fabric Cluster"
+output "savings_plans" {
+  value       = local.savings_plans
+  description = "Savings Plans"
 }
 
-output "servicebus_namespace" {
-  value       = local.az.servicebus_namespace
-  description = "Servicebus Namespace"
+output "secrets_manager" {
+  value       = local.secrets_manager
+  description = "Secrets Manager"
 }
 
-output "servicebus_namespace_authorization_rule" {
-  value       = local.az.servicebus_namespace_authorization_rule
-  description = "Servicebus Namespace Authorization Rule"
+output "security_hub" {
+  value       = local.security_hub
+  description = "Security Hub"
 }
 
-output "servicebus_queue" {
-  value       = local.az.servicebus_queue
-  description = "Servicebus Queue"
+output "security_lake" {
+  value       = local.security_lake
+  description = "Security Lake"
 }
 
-output "servicebus_queue_authorization_rule" {
-  value       = local.az.servicebus_queue_authorization_rule
-  description = "Servicebus Queue Authorization Rule"
+output "serverless_application_repository" {
+  value       = local.serverless_application_repository
+  description = "Serverless Application Repository"
 }
 
-output "servicebus_subscription" {
-  value       = local.az.servicebus_subscription
-  description = "Servicebus Subscription"
+output "service_catalog" {
+  value       = local.service_catalog
+  description = "Service Catalog"
 }
 
-output "servicebus_subscription_rule" {
-  value       = local.az.servicebus_subscription_rule
-  description = "Servicebus Subscription Rule"
+output "shield" {
+  value       = local.shield
+  description = "Shield"
 }
 
-output "servicebus_topic" {
-  value       = local.az.servicebus_topic
-  description = "Servicebus Topic"
+output "simple_email_service" {
+  value       = local.simple_email_service
+  description = "Simple Email Service"
 }
 
-output "servicebus_topic_authorization_rule" {
-  value       = local.az.servicebus_topic_authorization_rule
-  description = "Servicebus Topic Authorization Rule"
+output "simple_notification_service" {
+  value       = local.simple_notification_service
+  description = "Simple Notification Service"
 }
 
-output "shared_image" {
-  value       = local.az.shared_image
-  description = "Shared Image"
+output "simple_queue_service" {
+  value       = local.simple_queue_service
+  description = "Simple Queue Service"
 }
 
-output "shared_image_gallery" {
-  value       = local.az.shared_image_gallery
-  description = "Shared Image Gallery"
+output "simple_storage_service" {
+  value       = local.simple_storage_service
+  description = "Simple Storage Service"
 }
 
-output "signalr_service" {
-  value       = local.az.signalr_service
-  description = "Signalr Service"
+output "simple_workflow_service" {
+  value       = local.simple_workflow_service
+  description = "Simple Workflow Service"
 }
 
-output "snapshots" {
-  value       = local.az.snapshots
-  description = "Snapshots"
+output "snow_family" {
+  value       = local.snow_family
+  description = "Snow Family"
 }
 
-output "sql_elasticpool" {
-  value       = local.az.sql_elasticpool
-  description = "Sql Elasticpool"
+output "step_functions" {
+  value       = local.step_functions
+  description = "Step Functions"
 }
 
-output "sql_failover_group" {
-  value       = local.az.sql_failover_group
-  description = "Sql Failover Group"
+output "storage_gateway" {
+  value       = local.storage_gateway
+  description = "Storage Gateway"
 }
 
-output "sql_firewall_rule" {
-  value       = local.az.sql_firewall_rule
-  description = "Sql Firewall Rule"
+output "systems_manager" {
+  value       = local.systems_manager
+  description = "Systems Manager"
 }
 
-output "sql_server" {
-  value       = local.az.sql_server
-  description = "Sql Server"
+output "textract" {
+  value       = local.textract
+  description = "Textract"
 }
 
-output "static_web_app" {
-  value       = local.az.static_web_app
-  description = "Static Web App"
+output "timestream" {
+  value       = local.timestream
+  description = "Timestream"
 }
 
-output "storage_account" {
-  value       = local.az.storage_account
-  description = "Storage Account"
+output "transcribe" {
+  value       = local.transcribe
+  description = "Transcribe"
 }
 
-output "storage_blob" {
-  value       = local.az.storage_blob
-  description = "Storage Blob"
+output "transfer_family" {
+  value       = local.transfer_family
+  description = "Transfer Family"
 }
 
-output "storage_container" {
-  value       = local.az.storage_container
-  description = "Storage Container"
+output "transit_gateway" {
+  value       = local.transit_gateway
+  description = "Transit Gateway"
 }
 
-output "storage_data_lake_gen2_filesystem" {
-  value       = local.az.storage_data_lake_gen2_filesystem
-  description = "Storage Data Lake Gen2 Filesystem"
+output "translate" {
+  value       = local.translate
+  description = "Translate"
 }
 
-output "storage_queue" {
-  value       = local.az.storage_queue
-  description = "Storage Queue"
+output "trusted_advisor" {
+  value       = local.trusted_advisor
+  description = "Trusted Advisor"
 }
 
-output "storage_share" {
-  value       = local.az.storage_share
-  description = "Storage Share"
+output "user_notifications" {
+  value       = local.user_notifications
+  description = "User Notifications"
 }
 
-output "storage_share_directory" {
-  value       = local.az.storage_share_directory
-  description = "Storage Share Directory"
+output "verified_access" {
+  value       = local.verified_access
+  description = "Verified Access"
 }
 
-output "storage_table" {
-  value       = local.az.storage_table
-  description = "Storage Table"
+output "verified_permissions" {
+  value       = local.verified_permissions
+  description = "Verified Permissions"
 }
 
-output "stream_analytics_function_javascript_udf" {
-  value       = local.az.stream_analytics_function_javascript_udf
-  description = "Stream Analytics Function Javascript Udf"
+output "vmware_cloud_on_aws" {
+  value       = local.vmware_cloud_on_aws
+  description = "VMware Cloud on AWS"
 }
 
-output "stream_analytics_job" {
-  value       = local.az.stream_analytics_job
-  description = "Stream Analytics Job"
+output "vpc" {
+  value       = local.vpc
+  description = "VPC"
 }
 
-output "stream_analytics_output_blob" {
-  value       = local.az.stream_analytics_output_blob
-  description = "Stream Analytics Output Blob"
+output "vpc_lattice" {
+  value       = local.vpc_lattice
+  description = "VPC Lattice"
 }
 
-output "stream_analytics_output_eventhub" {
-  value       = local.az.stream_analytics_output_eventhub
-  description = "Stream Analytics Output Eventhub"
+output "vpn" {
+  value       = local.vpn
+  description = "VPN"
 }
 
-output "stream_analytics_output_mssql" {
-  value       = local.az.stream_analytics_output_mssql
-  description = "Stream Analytics Output Mssql"
+output "waf" {
+  value       = local.waf
+  description = "WAF"
 }
 
-output "stream_analytics_output_servicebus_queue" {
-  value       = local.az.stream_analytics_output_servicebus_queue
-  description = "Stream Analytics Output Servicebus Queue"
+output "waf_captcha" {
+  value       = local.waf_captcha
+  description = "WAF Captcha"
 }
 
-output "stream_analytics_output_servicebus_topic" {
-  value       = local.az.stream_analytics_output_servicebus_topic
-  description = "Stream Analytics Output Servicebus Topic"
+output "wavelength" {
+  value       = local.wavelength
+  description = "Wavelength"
 }
 
-output "stream_analytics_reference_input_blob" {
-  value       = local.az.stream_analytics_reference_input_blob
-  description = "Stream Analytics Reference Input Blob"
+output "well-architected_tool" {
+  value       = local.well-architected_tool
+  description = "Well-Architected Tool"
 }
 
-output "stream_analytics_stream_input_blob" {
-  value       = local.az.stream_analytics_stream_input_blob
-  description = "Stream Analytics Stream Input Blob"
+output "workdocs" {
+  value       = local.workdocs
+  description = "WorkDocs"
 }
 
-output "stream_analytics_stream_input_eventhub" {
-  value       = local.az.stream_analytics_stream_input_eventhub
-  description = "Stream Analytics Stream Input Eventhub"
+output "workmail" {
+  value       = local.workmail
+  description = "WorkMail"
 }
 
-output "stream_analytics_stream_input_iothub" {
-  value       = local.az.stream_analytics_stream_input_iothub
-  description = "Stream Analytics Stream Input Iothub"
+output "workspaces" {
+  value       = local.workspaces
+  description = "WorkSpaces"
 }
 
-output "subnet" {
-  value       = local.az.subnet
-  description = "Subnet"
+output "workspaces_core" {
+  value       = local.workspaces_core
+  description = "WorkSpaces Core"
 }
 
-output "template_deployment" {
-  value       = local.az.template_deployment
-  description = "Template Deployment"
+output "workspaces_thin_client" {
+  value       = local.workspaces_thin_client
+  description = "WorkSpaces Thin Client"
 }
 
-output "traffic_manager_profile" {
-  value       = local.az.traffic_manager_profile
-  description = "Traffic Manager Profile"
+output "workspaces_web" {
+  value       = local.workspaces_web
+  description = "Workspaces Web"
 }
 
-output "user_assigned_identity" {
-  value       = local.az.user_assigned_identity
-  description = "User Assigned Identity"
+output "x-ray" {
+  value       = local.x-ray
+  description = "X-Ray"
 }
-
-output "virtual_desktop_application_group" {
-  value       = local.az.virtual_desktop_application_group
-  description = "Virtual Desktop Application Group"
-}
-
-output "virtual_desktop_host_pool" {
-  value       = local.az.virtual_desktop_host_pool
-  description = "Virtual Desktop Host Pool"
-}
-
-output "virtual_desktop_scaling_plan" {
-  value       = local.az.virtual_desktop_scaling_plan
-  description = "Virtual Desktop Scaling Plan"
-}
-
-output "virtual_desktop_workspace" {
-  value       = local.az.virtual_desktop_workspace
-  description = "Virtual Desktop Workspace"
-}
-
-output "virtual_machine" {
-  value       = local.az.virtual_machine
-  description = "Virtual Machine"
-}
-
-output "virtual_machine_extension" {
-  value       = local.az.virtual_machine_extension
-  description = "Virtual Machine Extension"
-}
-
-output "virtual_machine_scale_set" {
-  value       = local.az.virtual_machine_scale_set
-  description = "Virtual Machine Scale Set"
-}
-
-output "virtual_machine_scale_set_extension" {
-  value       = local.az.virtual_machine_scale_set_extension
-  description = "Virtual Machine Scale Set Extension"
-}
-
-output "virtual_network" {
-  value       = local.az.virtual_network
-  description = "Virtual Network"
-}
-
-output "virtual_network_gateway" {
-  value       = local.az.virtual_network_gateway
-  description = "Virtual Network Gateway"
-}
-
-output "virtual_network_gateway_connection" {
-  value       = local.az.virtual_network_gateway_connection
-  description = "Virtual Network Gateway Connection"
-}
-
-output "virtual_network_peering" {
-  value       = local.az.virtual_network_peering
-  description = "Virtual Network Peering"
-}
-
-output "virtual_wan" {
-  value       = local.az.virtual_wan
-  description = "Virtual Wan"
-}
-
-output "windows_virtual_machine" {
-  value       = local.az.windows_virtual_machine
-  description = "Windows Virtual Machine"
-}
-
-output "windows_virtual_machine_scale_set" {
-  value       = local.az.windows_virtual_machine_scale_set
-  description = "Windows Virtual Machine Scale Set"
-}
-
-
